@@ -26,6 +26,25 @@ class _HalamanCounterState extends State<HalamanCounter> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.blue,
+      appBar: AppBar(
+        title: const Text(
+          'Counter Page',
+          style: TextStyle(
+            color: Colors.blue,
+            fontWeight: FontWeight.bold,
+            shadows: [
+              Shadow(
+                blurRadius: 4.0,
+                color: Colors.black26,
+                offset: Offset(2.0, 2.0),
+              ),
+            ],
+          ),
+        ),
+        backgroundColor: Colors.white,
+        centerTitle: true,
+        iconTheme: IconThemeData(color: Colors.blueGrey),
+      ),
 
       body: Center(
         child: Column(
