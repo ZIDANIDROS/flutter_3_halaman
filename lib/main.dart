@@ -3,6 +3,7 @@ import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:flutter_3_halaman/pages/halaman_profil.dart';
 import 'pages/halaman_api.dart';
 import 'pages/halaman_profil.dart';
+import 'pages/halaman_counter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,9 +36,9 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
-    Center(child: Text('Home Page', style: TextStyle(fontSize: 24))),
+    const HalamanCounter(),
     const HalamanAPI(),
-    const HalamanProfil(), // ganti dari Center(child: Text('Group Page'))
+    const HalamanProfil(),
   ];
 
   @override
@@ -50,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
         color: Colors.white,
         buttonBackgroundColor: Colors.white,
         items: const [
-          Icon(Icons.home, size: 30, color: Colors.blue),
+          Icon(Icons.calculate_outlined, size: 30, color: Colors.blue),
           Icon(Icons.list, size: 30, color: Colors.blue),
           Icon(Icons.groups, size: 30, color: Colors.blue),
         ],
