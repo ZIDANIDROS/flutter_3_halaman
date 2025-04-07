@@ -47,8 +47,9 @@ class _HalamanAPIState extends State<HalamanAPI> {
         return Center(
           child: Card(
             margin: const EdgeInsets.all(20),
+            color: Colors.white.withOpacity(0.7),
             elevation: 8,
-            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+            shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
             child: Padding(
               padding: const EdgeInsets.all(24),
               child: Column(

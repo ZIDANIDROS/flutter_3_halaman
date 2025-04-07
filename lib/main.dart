@@ -36,7 +36,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<Widget> _pages = [
     const HalamanCounter(),
     const HalamanAPI(),
-    const Center(child: Text('Group Page', style: TextStyle(fontSize: 24))),
+
   ];
 
   @override
