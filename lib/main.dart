@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<Widget> _pages = [
     Center(child: Text('Counter', style: TextStyle(fontSize: 24))),
     const HalamanAPI(),
-    Center(child: Text('Group Page', style: TextStyle(fontSize: 24))),
+    Center(child: Text('CAPYCAPY', style: TextStyle(fontSize: 24))),
   ];
 
   @override
