@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'pages/halaman_api.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +34,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   final List<Widget> _pages = [
     Center(child: Text('Home Page', style: TextStyle(fontSize: 24))),
-    Center(child: Text('List Page', style: TextStyle(fontSize: 24))),
+    const HalamanAPI(),
     Center(child: Text('Group Page', style: TextStyle(fontSize: 24))),
   ];
 
