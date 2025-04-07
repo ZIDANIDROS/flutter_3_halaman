@@ -78,7 +78,7 @@ class HalamanProfil extends StatelessWidget {
             buildProfile(
               nama: "Zahra Jane Arnecia",
               tglLahir: "Tangerang, 7 January 2005",
-              alamat: "Tangerang Selatan, Bintaro Jaya",
+              alamat: "Tangerang Selatan, Jawa Barat",
               imageUrl: 'assets/images/anggota1.jpg', //
             ),
             buildProfile(
