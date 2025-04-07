@@ -32,10 +32,10 @@ class _HalamanAPIState extends State<HalamanAPI> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF2196F3),
+      backgroundColor: Colors.blue,
       appBar: AppBar(
         title: const Text(
-          'Weather',
+          'Counter Page',
           style: TextStyle(
             color: Colors.blue,
             fontWeight: FontWeight.bold,
