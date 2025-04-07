@@ -33,7 +33,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = [
-    Center(child: Text('Home Page', style: TextStyle(fontSize: 24))),
+    Center(child: Text('Counter', style: TextStyle(fontSize: 24))),
     const HalamanAPI(),
     Center(child: Text('Group Page', style: TextStyle(fontSize: 24))),
   ];
