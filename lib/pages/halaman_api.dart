@@ -35,7 +35,7 @@ class _HalamanAPIState extends State<HalamanAPI> {
       backgroundColor: Colors.blue,
       appBar: AppBar(
         title: const Text(
-          'Counter Page',
+          'Weather',
           style: TextStyle(
             color: Colors.blue,
             fontWeight: FontWeight.bold,
