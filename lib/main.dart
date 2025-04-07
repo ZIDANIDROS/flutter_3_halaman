@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
+import 'package:flutter_3_halaman/pages/halaman_profil.dart';
 import 'pages/halaman_api.dart';
+import 'pages/halaman_profil.dart';
 import 'pages/halaman_counter.dart';
 
 void main() {
@@ -36,7 +38,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<Widget> _pages = [
     const HalamanCounter(),
     const HalamanAPI(),
-
+    const HalamanProfil(),
   ];
 
   @override
