@@ -15,32 +15,22 @@ Aplikasi ini terdiri dari 3 halaman, yaitu:
 
 ## Screenshot Halaman:
 ### Halaman Counter
-![Counter](screenshot/counter.png)
+<img src ="https://github.com/user-attachments/assets/7342df34-aa84-4a31-8325-827e0bf0c524" width= "300px"><br>
 
 ### Halaman API
-![API](screenshot/api.png)
+<img src ="https://github.com/user-attachments/assets/ea01abcd-2b9b-4827-863a-862d2c65e55e" width= "300px"><br>
+
 
 ### Halaman Profil
-![Profil](screenshot/profil.png)
+<img src ="https://github.com/user-attachments/assets/53d5e025-a04d-4e2b-917b-e444c65b59b9" width= "300px"><br>
+<img src ="https://github.com/user-attachments/assets/49ad8df8-6f00-4c51-bdb4-02b859bbe1d3" width= "300px"><br>
+
+
 
 ## Penjelasan Tiap Halaman:
 - **Halaman Counter:**  Menampilkan angka yang bisa bertambah atau berkurang saat tombol ditekan
-- **Halaman API:** ...
-- **Halaman Profil:** ...
+- **Halaman API:** Menampilkan API dengan Visual
+- **Halaman Profil:** Menampilkan informasi mengenai profil setiap anggota
 
 ## Cara Menjalankan Aplikasi:
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+flutter pub get flutter run
