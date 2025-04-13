@@ -18,7 +18,7 @@ Aplikasi ini terdiri dari 3 halaman, yaitu:
 <img src ="https://github.com/user-attachments/assets/7342df34-aa84-4a31-8325-827e0bf0c524" width= "300px"><br>
 
 ### Halaman API
-<img src ="https://github.com/user-attachments/assets/ea01abcd-2b9b-4827-863a-862d2c65e55e" width= "300px"><br>
+<img src ="https://github.com/user-attachments/assets/7a880fdf-1561-4b07-bb31-a213b9a26e00" width= "300px"><br>
 
 
 ### Halaman Profil
